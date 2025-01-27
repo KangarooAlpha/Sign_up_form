@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-size: 20px;
+    flex: 1;
+    background-color: #f2f2f2;
+}
+
+#content{
+    display: flex;
+    width: 90vw;
+    min-width: 60vw;;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    margin-left: 0px; 
+    z-index: 1;
+    max-width: 90vw;
+    overflow: visible;
+}
+
+#banner{    
+    height: 100vh;
+    border: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 2vw;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    margin: 10px;
+    padding: 10px;
+    justify-items: center;
+    gap: 20px;
+}
+
+input{
+    padding: 10px;
+}
+
+input :hover{
+    border: green;
+}
+
+input ::after{
+    background-color: grey;
+}
+
+label{
+    display: flex;
+}
+
+#paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-left: 1vw;
+}
+
+#submit{
+    margin-left: 3vw;
+    margin-top: 1vh;
+}
+
+#submit :hover{
+    background: #f2f2f2;
+}
+
+#submit :active{
+    background-color: blue;
+}
+
+#logo{
+    width: 100rem;
+    background-color: grey;
+    position: absolute;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    top: 15vh;
+    left: 0vw;
+    margin: 15px;
+    opacity: 0.5;
+    margin: 0px;
+    padding: 5vh;
+    padding-left: 50%;
+    font-size: 25px;
+}
